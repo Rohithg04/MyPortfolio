@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rohith G | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css">
 </head>
 <body>
   <header>
@@ -12,7 +13,7 @@
       <h2 class="logo">Rohith G</h2>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -21,27 +22,32 @@
       </ul>
     </nav>
   </header>
+
   <section id="home" class="hero">
     <video autoplay muted loop class="bg-video">
       <source src="assets/bgvideo.mp4" type="video/mp4" />
     </video>
     <div class="overlay"></div>
     <div class="content">
-      <h1>Hello, I'm <span>Rohith G</span></h1>
-      <p>Java Full Stack Developer | UI/UX Designer | BTech Graduate in AI & Data Science</p>
+      <h1>Hello, I'm <span class="typing">Rohith G</span></h1>
+      <p>Java Full Stack Developer | UI/UX Designer | BTech Graduate in AI & DS</p>
+      <div class="hero-buttons">
+        <a href="assets/resume.pdf" target="_blank" class="btn">View Resume</a>
+        <a href="#footer" class="btn">Get in Touch</a>
+      </div>
     </div>
   </section>
 
   <section id="about" class="section">
     <h2 class="gradient-heading">About Me</h2>
-    <p>BTech graduate in Artificial Intelligence and Data Science with a strong foundation in Java Full Stack Development, front-end technologies, and UI/UX design. Experienced in building scalable, responsive web applications with clean architecture and a user-focused approach. Passionate about continuous learning and delivering efficient, impactful digital solutions through modern development practices.</p>
+    <p>I am a BTech graduate in Artificial Intelligence and Data Science with a strong foundation in Java Full Stack Development and UI/UX design. I have experience developing responsive web applications using HTML, CSS, JavaScript, Java, SQL, and am learning React. Passionate about building efficient, scalable, and visually appealing solutions with a user-focused approach.</p>
   </section>
 
   <section id="education" class="section">
     <h2 class="gradient-heading">Educational Qualification</h2>
     <ul>
       <li><strong>BTech:</strong> AI & Data Science – Dhanalakshmi Srinivasan College of Engineering, Coimbatore – CGPA: 7.9</li>
-      <li><strong>Higher Secondary:</strong> Computer Science - HSS Mundur, Palakkad, Kerala – 91.7%</li>
+      <li><strong>Higher Secondary:</strong> Computer Science – HSS Mundur, Palakkad, Kerala – 91.7%</li>
     </ul>
   </section>
 
@@ -56,7 +62,6 @@
           <a href="https://rohithg04.github.io/LoginPage/" class="btn">Live Demo</a>
         </div>
       </div>
-
       <div class="project-card">
         <img src="https://tse2.mm.bing.net/th/id/OIP.z7yyFMS_8THZLrhZDyXXFQHaEK?pid=Api&P=0&h=180" alt="Flip Card">
         <div class="project-info">
@@ -65,7 +70,6 @@
           <a href="https://rohithg04.github.io/Flip-Card/" class="btn">Live Demo</a>
         </div>
       </div>
-
       <div class="project-card">
         <img src="https://tse1.mm.bing.net/th/id/OIP.lyAQWmPKOcvGzuYSiRMukQHaFP?pid=Api&P=0&h=180" alt="TaskFlow">
         <div class="project-info">
@@ -74,7 +78,6 @@
           <a href="https://rohithg04.github.io/ToDo/" class="btn">Live Demo</a>
         </div>
       </div>
-
       <div class="project-card">
         <img src="https://tse3.mm.bing.net/th/id/OIP.nErrDl4R-GAnVuiBnskWagHaE5?pid=Api&P=0&h=180" alt="Heart Risk">
         <div class="project-info">
@@ -83,7 +86,6 @@
           <a href="https://github.com/Rohithg04/Heart-Attack-Risk-Prediction-" class="btn">Live Demo</a>
         </div>
       </div>
-
       <div class="project-card">
         <img src="https://tse2.mm.bing.net/th/id/OIP.LzA4ABPRxujKf6QkhEXIeAHaEK?pid=Api&P=0&h=180" alt="Registration Form">
         <div class="project-info">
@@ -92,7 +94,6 @@
           <a href="https://rohithg04.github.io/Registration-Form/" class="btn">Live Demo</a>
         </div>
       </div>
-
       <div class="project-card">
         <img src="https://tse2.mm.bing.net/th/id/OIP.rRVJdqx-A0Z6q0EOQjRqjQHaE8?pid=Api&P=0&h=180" alt="Cardfolio">
         <div class="project-info">
@@ -101,7 +102,6 @@
           <a href="https://rohithg04.github.io/Cardfolio/" class="btn">Live Demo</a>
         </div>
       </div>
-
       <div class="project-card">
         <img src="https://tse1.mm.bing.net/th/id/OIP.WbgLveB0xDD5qDJ50YYPowHaE8?pid=Api&P=0&h=180" alt="Book Gallery">
         <div class="project-info">
@@ -110,7 +110,6 @@
           <a href="https://rohithg04.github.io/BookGallery/" class="btn">Live Demo</a>
         </div>
       </div>
-
       <div class="project-card">
         <img src="https://tse3.mm.bing.net/th/id/OIP.-9301wdEixcxGufDLGHy3wAAAA?pid=Api&P=0&h=180" alt="RedBus UX">
         <div class="project-info">
@@ -119,7 +118,6 @@
           <a href="#" class="btn">Live Demo</a>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -129,33 +127,31 @@
       <div class="skill-group">
         <h4>💻 Programming</h4>
         <ul>
-          <li>Java (OOPs, Arrays, String, Exception Handling, Collections)</li>
-          <li>Python (Basics)</li>
-          <li>SQL (Joins, Queries, Normalization)</li>
+          <li><i class="devicon-java-plain"></i> Java (OOPs, Arrays, Collections)</li>
+          <li><i class="devicon-mysql-plain"></i> SQL (Joins, Queries, Normalization)</li>
         </ul>
       </div>
       <div class="skill-group">
         <h4>🌐 Web Development</h4>
         <ul>
-          <li>HTML5 & CSS3</li>
-          <li>JavaScript (Basics)</li>
-          <li>React (Learning phase)</li>
+          <li><i class="devicon-html5-plain"></i> HTML5</li>
+          <li><i class="devicon-css3-plain"></i> CSS3</li>
         </ul>
       </div>
       <div class="skill-group">
         <h4>🧰 Tools & Platforms</h4>
         <ul>
-          <li>Git & GitHub</li>
-          <li>VS Code, Eclipse</li>
+          <li><i class="devicon-git-plain"></i> Git & GitHub</li>
+          <li><i class="devicon-vscode-plain"></i> Visual Studio Code</li>
+          <li><i class="devicon-eclipse-plain"></i> Eclipse</li>
           <li>Figma, Penpot, Miro</li>
         </ul>
       </div>
       <div class="skill-group">
-        <h4>🧠 Other</h4>
+        <h4>🎨 Other</h4>
         <ul>
           <li>UI/UX Design</li>
           <li>Responsive Design</li>
-          <li>Python Django basics</li>
         </ul>
       </div>
     </div>
@@ -163,24 +159,28 @@
 
   <section id="languages" class="section">
     <h2 class="gradient-heading">Languages Known</h2>
-    <ul>
-      <li><strong>English:</strong> Fluent</li>
-      <li><strong>Tamil:</strong> Fluent</li>
-      <li><strong>Malayalam:</strong> Native</li>
-      <li><strong>Hindi:</strong> Beginner</li>
-    </ul>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>🗣 Communication</h4>
+        <ul>
+          <li><strong>English:</strong> Fluent</li>
+          <li><strong>Tamil:</strong> Fluent</li>
+          <li><strong>Malayalam:</strong> Native</li>
+          <li><strong>Hindi:</strong> Beginner</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <footer>
+  <footer id="footer">
     <p><strong>Contact</strong></p>
     <p>Email: <a href="mailto:rohithg278@gmail.com">rohithg278@gmail.com</a></p>
-    <p>Phone: <a href="tel:+917034530378">7034530378</a></p>
-    <p>
-      <a href="https://linkedin.com/in/rohithg04" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/Rohithg04" target="_blank">GitHub</a>
-    </p>
+    <p>Phone: <a href="tel:+917034530378">+91 7034530378</a></p>
+    <div class="footer-icons">
+      <a href="https://linkedin.com/in/rohithg04" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+      <a href="https://github.com/Rohithg04" target="_blank"><i class="devicon-github-original"></i></a>
+    </div>
     <p>&copy; 2025 Rohith G. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
